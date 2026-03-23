@@ -6,7 +6,7 @@ import {
   Globe,
   Github,
   Linkedin,
-  Twitter,
+  Instagram,
   Send,
   MessageCircle,
 } from 'lucide-react';
@@ -52,19 +52,19 @@ export function Contact({ mode }: ContactProps) {
     {
       icon: Github,
       label: t('contact.github'),
-      href: '#',
+      href: 'https://github.com/hartanto-situmorang?tab=repositories',
       color: isSplash ? 'hover:text-white' : 'hover:text-gray-900',
     },
     {
       icon: Linkedin,
       label: t('contact.linkedin'),
-      href: '#',
+      href: 'https://www.linkedin.com/in/hartanto-situmorang-4123822a7/',
       color: isSplash ? 'hover:text-blue-400' : 'hover:text-blue-600',
     },
     {
-      icon: Twitter,
+      icon: Instagram,
       label: t('contact.twitter'),
-      href: '#',
+      href: 'https://www.instagram.com/nhart_st/',
       color: isSplash ? 'hover:text-sky-400' : 'hover:text-sky-500',
     },
   ];

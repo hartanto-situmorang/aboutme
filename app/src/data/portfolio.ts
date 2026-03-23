@@ -2,10 +2,10 @@ import type { PersonalInfo, Project, TimelineEvent, Skill } from "@/types";
 
 export const personalInfo: PersonalInfo = {
   name: "HARTANTO SITUMORANG",
-  location: "Riau, Indonesia",
+  location: "Banjarbaru, Kalimantan Selatan",
   phone: "083157682848",
   email: "situmorang140201hart@gmail.com",
-  website: "www.hartanto.s.com",
+  website: "nhart.cloud",
   summary:
     "Full Stack Developer with strong passion in business systems and data architecture. Experienced in leading end-to-end enterprise system development, from requirement analysis and system design to deployment and maintenance. Skilled in designing scalable client-server architecture, building enterprise web and mobile applications, and managing structured databases. Strong analytical thinker with experience collaborating with stakeholders and cross-functional teams to deliver business-driven software solutions.",
 };
