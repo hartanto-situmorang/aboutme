@@ -6,7 +6,7 @@ import {
   ChevronRight,
   Layers,
   CheckCircle2,
-  ArrowUpRight,
+  // ArrowUpRight,
   Calendar,
   Code2,
 } from 'lucide-react';
@@ -411,7 +411,7 @@ export function Projects({ mode }: ProjectsProps) {
                       </div>
 
                       {/* View Project Button */}
-                      <motion.button
+                      {/* <motion.button
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                         className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-medium transition-all ${
@@ -422,7 +422,7 @@ export function Projects({ mode }: ProjectsProps) {
                       >
                         {t('projects.viewDetails')}
                         <ArrowUpRight className="w-4 h-4" />
-                      </motion.button>
+                      </motion.button> */}
                     </motion.div>
                   </div>
                 </div>

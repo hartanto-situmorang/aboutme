@@ -36,7 +36,7 @@ export function Career({ mode }: CareerProps) {
         year: '2022',
         title: t('career.timeline.0.title'),
         description: t('career.timeline.0.description'),
-        company: 'PT Putera Wibowo Borneo',
+        company: 'CV Baja Diva Manufaktur',
         skills: ['Laravel', 'PHP', 'MySQL', 'JavaScript'],
       },
       {
@@ -44,8 +44,8 @@ export function Career({ mode }: CareerProps) {
         year: '2023',
         title: t('career.timeline.1.title'),
         description: t('career.timeline.1.description'),
-        company: 'PT Putera Wibowo Borneo',
-        skills: ['System Architecture', 'Database Design', 'Team Leadership', 'API Development'],
+        company: 'BNSP',
+        skills: ['Certified Professional', 'OOP', 'System Architecture', 'Database Design', 'API Development'],
       },
       {
         id: 'event-3',
@@ -53,15 +53,15 @@ export function Career({ mode }: CareerProps) {
         title: t('career.timeline.2.title'),
         description: t('career.timeline.2.description'),
         company: 'PT Putera Wibowo Borneo',
-        skills: ['React', 'Node.js', 'WebSocket', 'Three.js', 'IoT Integration'],
+        skills: ['React', 'Node.js', 'Laravel', 'Three.js', 'API', 'SPA', 'Database', 'AI'],
       },
       {
         id: 'event-4',
         year: '2024',
         title: t('career.timeline.3.title'),
         description: t('career.timeline.3.description'),
-        company: 'PT Putera Wibowo Borneo',
-        skills: ['PWA Development', 'Touch UI', 'Certified Professional'],
+        company: 'PT Putera Wibowo Borneo && PT. Argih Multi Teknologi',
+        skills: ['PWA Development', 'VPS', 'ERP', 'API', 'IOT', 'Database', 'AI'],
       },
     ];
   };
@@ -72,9 +72,8 @@ export function Career({ mode }: CareerProps) {
   return (
     <section
       id="career"
-      className={`relative py-20 sm:py-32 ${
-        isSplash ? '' : 'bg-white'
-      }`}
+      className={`relative py-20 sm:py-32 ${isSplash ? '' : 'bg-white'
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
@@ -87,22 +86,19 @@ export function Career({ mode }: CareerProps) {
         >
           <div className="flex items-center justify-center gap-3 mb-4">
             <Briefcase
-              className={`w-6 h-6 ${
-                isSplash ? 'text-green-400' : 'text-gray-600'
-              }`}
+              className={`w-6 h-6 ${isSplash ? 'text-green-400' : 'text-gray-600'
+                }`}
             />
             <span
-              className={`text-sm font-medium uppercase tracking-wider ${
-                isSplash ? 'text-green-400' : 'text-gray-500'
-              }`}
+              className={`text-sm font-medium uppercase tracking-wider ${isSplash ? 'text-green-400' : 'text-gray-500'
+                }`}
             >
               {t('career.title')}
             </span>
           </div>
           <h2
-            className={`text-3xl sm:text-4xl font-bold ${
-              isSplash ? 'text-white' : 'text-gray-900'
-            }`}
+            className={`text-3xl sm:text-4xl font-bold ${isSplash ? 'text-white' : 'text-gray-900'
+              }`}
           >
             {t('career.subtitle')}
           </h2>
@@ -118,28 +114,24 @@ export function Career({ mode }: CareerProps) {
             className="lg:col-span-1"
           >
             <div
-              className={`p-6 rounded-2xl h-full ${
-                isSplash
-                  ? 'bg-black/60 backdrop-blur-sm border border-green-500/20'
-                  : 'bg-gray-50 border border-gray-200'
-              }`}
+              className={`p-6 rounded-2xl h-full ${isSplash
+                ? 'bg-black/60 backdrop-blur-sm border border-green-500/20'
+                : 'bg-gray-50 border border-gray-200'
+                }`}
             >
               <div className="flex items-center gap-3 mb-6">
                 <div
-                  className={`p-3 rounded-xl ${
-                    isSplash ? 'bg-green-500/20' : 'bg-white'
-                  }`}
+                  className={`p-3 rounded-xl ${isSplash ? 'bg-green-500/20' : 'bg-white'
+                    }`}
                 >
                   <GraduationCap
-                    className={`w-6 h-6 ${
-                      isSplash ? 'text-green-400' : 'text-gray-600'
-                    }`}
+                    className={`w-6 h-6 ${isSplash ? 'text-green-400' : 'text-gray-600'
+                      }`}
                   />
                 </div>
                 <h3
-                  className={`text-xl font-semibold ${
-                    isSplash ? 'text-white' : 'text-gray-900'
-                  }`}
+                  className={`text-xl font-semibold ${isSplash ? 'text-white' : 'text-gray-900'
+                    }`}
                 >
                   {t('about.education.title')}
                 </h3>
@@ -147,30 +139,26 @@ export function Career({ mode }: CareerProps) {
 
               <div className="space-y-4">
                 <div
-                  className={`p-4 rounded-xl ${
-                    isSplash
-                      ? 'bg-black/40 border border-green-500/10'
-                      : 'bg-white border border-gray-200'
-                  }`}
+                  className={`p-4 rounded-xl ${isSplash
+                    ? 'bg-black/40 border border-green-500/10'
+                    : 'bg-white border border-gray-200'
+                    }`}
                 >
                   <h4
-                    className={`font-semibold mb-1 ${
-                      isSplash ? 'text-white' : 'text-gray-900'
-                    }`}
+                    className={`font-semibold mb-1 ${isSplash ? 'text-white' : 'text-gray-900'
+                      }`}
                   >
                     {t('about.education.degree')}
                   </h4>
                   <p
-                    className={`text-sm ${
-                      isSplash ? 'text-gray-400' : 'text-gray-500'
-                    }`}
+                    className={`text-sm ${isSplash ? 'text-gray-400' : 'text-gray-500'
+                      }`}
                   >
                     {t('about.education.institution')}
                   </p>
                   <div
-                    className={`inline-flex items-center gap-1 mt-2 text-sm ${
-                      isSplash ? 'text-green-400' : 'text-gray-600'
-                    }`}
+                    className={`inline-flex items-center gap-1 mt-2 text-sm ${isSplash ? 'text-green-400' : 'text-gray-600'
+                      }`}
                   >
                     <span className="font-medium">{t('about.education.gpa')}: {education.gpa}</span>
                   </div>
@@ -180,9 +168,8 @@ export function Career({ mode }: CareerProps) {
               {/* Leadership Experience */}
               <div className="mt-8">
                 <h4
-                  className={`text-sm font-medium uppercase tracking-wider mb-4 ${
-                    isSplash ? 'text-green-400' : 'text-gray-500'
-                  }`}
+                  className={`text-sm font-medium uppercase tracking-wider mb-4 ${isSplash ? 'text-green-400' : 'text-gray-500'
+                    }`}
                 >
                   {t('career.leadership.title')}
                 </h4>
@@ -194,14 +181,12 @@ export function Career({ mode }: CareerProps) {
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: index * 0.1 }}
-                      className={`flex gap-3 text-sm ${
-                        isSplash ? 'text-gray-300' : 'text-gray-600'
-                      }`}
+                      className={`flex gap-3 text-sm ${isSplash ? 'text-gray-300' : 'text-gray-600'
+                        }`}
                     >
                       <span
-                        className={`flex-shrink-0 w-1.5 h-1.5 rounded-full mt-2 ${
-                          isSplash ? 'bg-green-400' : 'bg-gray-400'
-                        }`}
+                        className={`flex-shrink-0 w-1.5 h-1.5 rounded-full mt-2 ${isSplash ? 'bg-green-400' : 'bg-gray-400'
+                          }`}
                       />
                       <span>{item}</span>
                     </motion.div>
@@ -220,28 +205,24 @@ export function Career({ mode }: CareerProps) {
             className="lg:col-span-2"
           >
             <div
-              className={`p-6 rounded-2xl ${
-                isSplash
-                  ? 'bg-black/60 backdrop-blur-sm border border-green-500/20'
-                  : 'bg-gray-50 border border-gray-200'
-              }`}
+              className={`p-6 rounded-2xl ${isSplash
+                ? 'bg-black/60 backdrop-blur-sm border border-green-500/20'
+                : 'bg-gray-50 border border-gray-200'
+                }`}
             >
               <div className="flex items-center gap-3 mb-6">
                 <div
-                  className={`p-3 rounded-xl ${
-                    isSplash ? 'bg-green-500/20' : 'bg-white'
-                  }`}
+                  className={`p-3 rounded-xl ${isSplash ? 'bg-green-500/20' : 'bg-white'
+                    }`}
                 >
                   <Building2
-                    className={`w-6 h-6 ${
-                      isSplash ? 'text-green-400' : 'text-gray-600'
-                    }`}
+                    className={`w-6 h-6 ${isSplash ? 'text-green-400' : 'text-gray-600'
+                      }`}
                   />
                 </div>
                 <h3
-                  className={`text-xl font-semibold ${
-                    isSplash ? 'text-white' : 'text-gray-900'
-                  }`}
+                  className={`text-xl font-semibold ${isSplash ? 'text-white' : 'text-gray-900'
+                    }`}
                 >
                   {t('career.workExperience')}
                 </h3>
@@ -250,9 +231,8 @@ export function Career({ mode }: CareerProps) {
               <div className="relative">
                 {/* Timeline Line */}
                 <div
-                  className={`absolute left-4 top-0 bottom-0 w-px ${
-                    isSplash ? 'bg-green-500/30' : 'bg-gray-300'
-                  }`}
+                  className={`absolute left-4 top-0 bottom-0 w-px ${isSplash ? 'bg-green-500/30' : 'bg-gray-300'
+                    }`}
                 />
 
                 {/* Timeline Events */}
@@ -268,59 +248,52 @@ export function Career({ mode }: CareerProps) {
                     >
                       {/* Timeline Dot */}
                       <div
-                        className={`absolute left-2 top-2 w-5 h-5 rounded-full border-2 ${
-                          isSplash
-                            ? 'bg-black border-green-400'
-                            : 'bg-white border-gray-400'
-                        }`}
+                        className={`absolute left-2 top-2 w-5 h-5 rounded-full border-2 ${isSplash
+                          ? 'bg-black border-green-400'
+                          : 'bg-white border-gray-400'
+                          }`}
                       >
                         <div
-                          className={`absolute inset-1 rounded-full ${
-                            isSplash ? 'bg-green-400' : 'bg-gray-400'
-                          }`}
+                          className={`absolute inset-1 rounded-full ${isSplash ? 'bg-green-400' : 'bg-gray-400'
+                            }`}
                         />
                       </div>
 
                       {/* Content Card */}
                       <div
-                        className={`p-4 rounded-xl ${
-                          isSplash
-                            ? 'bg-black/40 border border-green-500/10'
-                            : 'bg-white border border-gray-200'
-                        }`}
+                        className={`p-4 rounded-xl ${isSplash
+                          ? 'bg-black/40 border border-green-500/10'
+                          : 'bg-white border border-gray-200'
+                          }`}
                       >
                         <div className="flex flex-wrap items-center gap-2 mb-2">
                           <span
-                            className={`inline-flex items-center gap-1 px-2 py-1 rounded text-xs font-medium ${
-                              isSplash
-                                ? 'bg-green-500/20 text-green-400'
-                                : 'bg-gray-100 text-gray-600'
-                            }`}
+                            className={`inline-flex items-center gap-1 px-2 py-1 rounded text-xs font-medium ${isSplash
+                              ? 'bg-green-500/20 text-green-400'
+                              : 'bg-gray-100 text-gray-600'
+                              }`}
                           >
                             <Calendar className="w-3 h-3" />
                             {event.year}
                           </span>
                           <span
-                            className={`text-sm ${
-                              isSplash ? 'text-gray-400' : 'text-gray-500'
-                            }`}
+                            className={`text-sm ${isSplash ? 'text-gray-400' : 'text-gray-500'
+                              }`}
                           >
                             {event.company}
                           </span>
                         </div>
 
                         <h4
-                          className={`font-semibold mb-2 ${
-                            isSplash ? 'text-white' : 'text-gray-900'
-                          }`}
+                          className={`font-semibold mb-2 ${isSplash ? 'text-white' : 'text-gray-900'
+                            }`}
                         >
                           {event.title}
                         </h4>
 
                         <p
-                          className={`text-sm mb-3 ${
-                            isSplash ? 'text-gray-300' : 'text-gray-600'
-                          }`}
+                          className={`text-sm mb-3 ${isSplash ? 'text-gray-300' : 'text-gray-600'
+                            }`}
                         >
                           {event.description}
                         </p>
@@ -330,11 +303,10 @@ export function Career({ mode }: CareerProps) {
                           {event.skills.map((skill) => (
                             <span
                               key={skill}
-                              className={`px-2 py-1 rounded text-xs ${
-                                isSplash
-                                  ? 'bg-green-500/10 text-green-300 border border-green-500/20'
-                                  : 'bg-gray-100 text-gray-600'
-                              }`}
+                              className={`px-2 py-1 rounded text-xs ${isSplash
+                                ? 'bg-green-500/10 text-green-300 border border-green-500/20'
+                                : 'bg-gray-100 text-gray-600'
+                                }`}
                             >
                               {skill}
                             </span>

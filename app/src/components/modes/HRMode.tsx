@@ -240,9 +240,9 @@ export function HRMode() {
                     <h3 className="font-bold text-white group-hover:text-cyan-400 transition-colors">
                       {event.title}
                     </h3>
-                    {event.company && (
+                    {/* {event.company && (
                       <p className="text-sm text-gray-400 mt-1">{event.company}</p>
-                    )}
+                    )} */}
                     <p className="text-sm text-gray-300 mt-2 line-clamp-2">
                       {event.description}
                     </p>

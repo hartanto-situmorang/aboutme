@@ -93,24 +93,24 @@ const translations = {
       workExperience: 'Work Experience',
       timeline: [
         {
-          year: '2022',
+          year: '2023',
           title: 'Started Professional Journey',
-          description: 'Joined as Full Stack Developer, beginning career in enterprise software development with focus on mining industry solutions.',
-        },
-        {
-          year: '2023',
-          title: 'ERP System Development',
-          description: 'Led the development of comprehensive ERP system supporting multi-site mining operations. Managed end-to-end development from requirement gathering to deployment.',
-        },
-        {
-          year: '2023',
-          title: 'IoT & Monitoring Solutions',
-          description: 'Expanded expertise to IoT and real-time monitoring systems, developing solutions for equipment tracking and operational visibility.',
+          description: 'First time developing software used by a manufacturing company to manage inventory stock and employee attendance.',
         },
         {
           year: '2024',
           title: 'BNSP Certification & Innovation',
-          description: 'Achieved BNSP Certified Programmer certification. Continued innovation with customer-facing solutions and kiosk applications.',
+          description: 'In 2024, I officially obtained a professional certification in programming from BNSP.',
+        },
+        {
+          year: '2025',
+          title: 'ERP System Development',
+          description: 'In this year, I started building an ERP system used by PT Putera Wibowo Borneo, covering the company’s entire operational system.',
+        },
+        {
+          year: '2026',
+          title: 'AMT Collaboration',
+          description: 'Besides being a full-time employee at PT Putera Wibowo Borneo, I started freelancing at PT Argih Multi Teknologi as a software solution provider.',
         },
       ],
     },
@@ -262,7 +262,7 @@ const translations = {
     hero: {
       status: 'Terbuka Untuk Kerja',
       role: 'Full Stack Developer',
-      tagline: 'Saya suka coding dan memberikan sesuatu yang dapat membantu orang lain setiap hari dan menyederhanakan hidup mereka.',
+      tagline: 'Saya suka sangat suka membangun aplikasi dan memberikan sesuatu yang dibutuhkan orang lain yang dapat membantu pekerjaan mereka.',
       cta: {
         primary: 'Jelajahi Karya Saya',
         secondary: 'Hubungi Saya',
@@ -273,7 +273,7 @@ const translations = {
       subtitle: 'Mengenal Lebih Dalam',
       summary: {
         title: 'Ringkasan Profesional',
-        content: 'Full Stack Developer dengan passion kuat dalam sistem bisnis dan arsitektur data. Berpengalaman dalam memimpin pengembangan sistem enterprise end-to-end, dari analisis kebutuhan dan desain sistem hingga deployment dan maintenance. Terampil dalam merancang arsitektur client-server yang scalable, membangun aplikasi web dan mobile enterprise, dan mengelola database terstruktur. Thinker analitis yang kuat dengan pengalaman berkolaborasi dengan stakeholders dan tim cross-functional untuk menghasilkan solusi software yang berbasis bisnis.',
+        content: 'Saya bisa disebut seorang Full Stack Developer dengan passion kuat dalam sistem bisnis dan arsitektur sistem. Berpengalaman dalam memimpin pengembangan sistem enterprise end-to-end, dari analisis kebutuhan dan desain sistem hingga deployment dan maintenance. sebagai tuntutan saya harus terampil dalam merancang arsitektur client-server yang scalable, membangun aplikasi web dan mobile enterprise, dan mengelola database terstruktur. analitis berfikir yang kuat dengan pengalaman pendekatan user dapat menghasilkan software yang berbasis bisnis.',
       },
       education: {
         title: 'Pendidikan',
@@ -289,16 +289,16 @@ const translations = {
       },
       highlight: {
         problemSolver: {
-          title: 'Pemecah Masalah',
-          desc: 'Bersemangat dalam menerjemahkan kebutuhan bisnis yang kompleks menjadi solusi teknis yang elegan.',
+          title: 'Pemecahan Masalah',
+          desc: 'Bersemangat dalam mengubah kebutuhan bisnis yang kompleks menjadi solusi teknis yang elegan.',
         },
         innovation: {
           title: 'Berbasis Inovasi',
-          desc: 'Selalu mengeksplorasi teknologi dan pendekatan baru untuk memberikan solusi terdepan.',
+          desc: 'Saya yakin bisa mengukuti perkembangan tekologi yang fleksibel dan ter-update',
         },
         bnsp: {
           title: 'Bersertifikat BNSP',
-          desc: 'Programmer Bersertifikat dengan pengakuan profesional dari Badan Nasional Sertifikasi Profesi.',
+          desc: 'Programmer Bersertifikat dengan pengakuan profesional dari Badan Nasional Sertifikasi Profesi Indonesia.',
         },
       },
     },
@@ -317,24 +317,24 @@ const translations = {
       workExperience: 'Pengalaman Kerja',
       timeline: [
         {
-          year: '2022',
+          year: '2023',
           title: 'Memulai Perjalanan Profesional',
-          description: 'Bergabung sebagai Full Stack Developer, memulai karir dalam pengembangan software enterprise dengan fokus pada solusi industri pertambangan.',
-        },
-        {
-          year: '2023',
-          title: 'Pengembangan Sistem ERP',
-          description: 'Memimpin pengembangan sistem ERP komprehensif yang mendukung operasi pertambangan multi-site. Mengelola pengembangan end-to-end dari pengumpulan kebutuhan hingga deployment.',
-        },
-        {
-          year: '2023',
-          title: 'Solusi IoT & Monitoring',
-          description: 'Memperluas keahlian ke sistem IoT dan monitoring real-time, mengembangkan solusi untuk pelacakan equipment dan visibilitas operasional.',
+          description: 'Pertama kalinya mengembangkan software yang digunakan oleh perusahaan manufaktur dalam mengelola stock inventori dan absensi karyawan.',
         },
         {
           year: '2024',
           title: 'Sertifikasi BNSP & Inovasi',
-          description: 'Mencapai sertifikasi Programmer Bersertifikat BNSP. Melanjutkan inovasi dengan solusi customer-facing dan aplikasi kiosk.',
+          description: 'Pada tahun 2024 saya resmi memperoleh sertifikat profesional dibidang pemrograman oleh BNSP',
+        },
+        {
+          year: '2025',
+          title: 'Membangun software ERP',
+          description: 'Pada tahun ini saya memulai membangun ERP yang digunakan oleh perusahaan PT PUTERA WIBOWO BORNEO, ERP ini mencakup keseluruhan sistem perusahaan.',
+        },
+        {
+          year: '2026',
+          title: 'Kolaborasi AMT',
+          description: 'Selain karyawan tetap di PT. Putera Wibowo Borneo, saya memulai freelance di PT. Argih Multi Teknologi sebagai penyedia solusi kebutuhan software',
         },
       ],
     },
@@ -482,7 +482,7 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
     (key: string): string => {
       const keys = key.split('.');
       let value: unknown = translations[language];
-      
+
       for (const k of keys) {
         if (value && typeof value === 'object' && k in value) {
           value = (value as Record<string, unknown>)[k];
@@ -490,7 +490,7 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
           return key; // Return key if translation not found
         }
       }
-      
+
       return typeof value === 'string' ? value : key;
     },
     [language]
