@@ -34,7 +34,7 @@ const translations = {
         en: 'ENG',
       },
     },
-    loading: 'Loading Portfolio',
+    loading: 'Loading Portofolio',
     hero: {
       status: 'Open To Work',
       role: 'Full Stack Developer',
@@ -258,7 +258,7 @@ const translations = {
         en: 'ENG',
       },
     },
-    loading: 'Memuat Portfolio',
+    loading: 'Memuat Portofolio',
     hero: {
       status: 'Terbuka Untuk Kerja',
       role: 'Full Stack Developer',

@@ -59,7 +59,7 @@ export const projects: Project[] = [
       "Analytics dashboard with dynamic data visualization",
     ],
     metrics: "50% process time reduction | 100+ active users | 5 locations",
-    date: "2023 - 2024",
+    date: "2025-2026",
     image: "/images/erp-system.jpg",
   },
   {
@@ -70,7 +70,7 @@ export const projects: Project[] = [
     technologies: ["React", "Node.js", "WebSocket", "IoT Sensors", "PostgreSQL", "Chart.js"],
     features: ["Real-time GPS tracking of equipment", "Live dashboard with operational status", "Automated alerts for maintenance schedules", "Fuel consumption monitoring", "Performance analytics and reporting", "Mobile-responsive interface"],
     metrics: "Real-time updates | 50+ units monitored",
-    date: "2023",
+    date: "2026",
     image: "/images/monitoring-system.jpg",
   },
   {
@@ -81,7 +81,7 @@ export const projects: Project[] = [
     technologies: ["Three.js", "React Three Fiber", "WebGL", "JavaScript", "Blender"],
     features: ["Interactive 3D model manipulation", "Drag-and-drop component placement", "Real-time dimension calculations", "Export to CAD formats", "VR/AR compatibility", "Collaborative design sharing"],
     metrics: "3D visualization | Interactive design",
-    date: "2023",
+    date: "2025",
     image: "/images/3d-container.jpg",
   },
   {
@@ -92,7 +92,7 @@ export const projects: Project[] = [
     technologies: ["React", "PWA", "Touch UI", "Local Storage", "Offline Sync"],
     features: ["Touch-optimized interface", "Offline capability with sync", "Product catalog with search", "Order placement and tracking", "Customer feedback system", "Multi-language support"],
     metrics: "Kiosk deployment | Customer self-service",
-    date: "2024",
+    date: "2025",
     image: "/images/kiosk-table.jpg",
   },
 ];

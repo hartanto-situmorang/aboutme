@@ -99,7 +99,7 @@ export function ModeSelection({ onSelectMode }: ModeSelectionProps) {
         transition={{ delay: 1.8, duration: 0.6 }}
         className="text-gray-400 mb-12 text-lg text-center"
       >
-        Select your perspective to view my portfolio
+        Select your perspective to view my portofolio
       </motion.p>
 
       {/* Mode Cards */}

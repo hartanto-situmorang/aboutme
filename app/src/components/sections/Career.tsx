@@ -41,7 +41,7 @@ export function Career({ mode }: CareerProps) {
       },
       {
         id: 'event-2',
-        year: '2023',
+        year: '2024',
         title: t('career.timeline.1.title'),
         description: t('career.timeline.1.description'),
         company: 'BNSP',
@@ -49,7 +49,7 @@ export function Career({ mode }: CareerProps) {
       },
       {
         id: 'event-3',
-        year: '2023',
+        year: '2025',
         title: t('career.timeline.2.title'),
         description: t('career.timeline.2.description'),
         company: 'PT Putera Wibowo Borneo',
@@ -57,7 +57,7 @@ export function Career({ mode }: CareerProps) {
       },
       {
         id: 'event-4',
-        year: '2024',
+        year: '2026',
         title: t('career.timeline.3.title'),
         description: t('career.timeline.3.description'),
         company: 'PT Putera Wibowo Borneo && PT. Argih Multi Teknologi',

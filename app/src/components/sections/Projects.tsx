@@ -43,7 +43,7 @@ export function Projects({ mode }: ProjectsProps) {
           t('projects.items.0.features.7'),
         ],
         metrics: t('projects.items.0.metrics'),
-        date: '2023 - 2024',
+        date: '2025 - 2026',
       },
       {
         id: 'realtime-monitoring',
@@ -60,7 +60,7 @@ export function Projects({ mode }: ProjectsProps) {
           t('projects.items.1.features.5'),
         ],
         metrics: t('projects.items.1.metrics'),
-        date: '2023',
+        date: '2025',
       },
       {
         id: '3d-container-design',
@@ -77,7 +77,7 @@ export function Projects({ mode }: ProjectsProps) {
           t('projects.items.2.features.5'),
         ],
         metrics: t('projects.items.2.metrics'),
-        date: '2023',
+        date: '2025',
       },
       {
         id: 'spa-kiosk-table',
@@ -94,7 +94,7 @@ export function Projects({ mode }: ProjectsProps) {
           t('projects.items.3.features.5'),
         ],
         metrics: t('projects.items.3.metrics'),
-        date: '2024',
+        date: '2025',
       },
     ];
   };
